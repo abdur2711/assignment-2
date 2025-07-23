@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* Shared styles */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 30px;
+  font-family: "Inter", sans-serif;
+  background-color: rgb(245, 248, 255);
+}
+
+.flex {
+  display: flex;
+}
+
+/* navbar styles */
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  gap: 45px;
+  list-style: none;
+  align-items: center;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-links .home {
+  font-weight: 700;
+  color: #252432;
+}
+
+.nav-links .shop,
+.nav-links .about {
+  color: #8987A1;
+}
+
+
+
+
+
+/* Responsive styles */
+@media screen and (max-width: 576px) {
+  body {
+    padding: 15px;
+  }
+
+  .nav-links .home,
+  .nav-links .shop,
+  .nav-links .about {
+    display: none;
+  }
+  
+  .navbar img {
+    width: 70px;
+  }
+}
