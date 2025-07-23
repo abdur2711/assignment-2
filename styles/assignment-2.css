@@ -43,8 +43,20 @@ section {
 .section-description {
   font-size: 1.4rem;
   color: hsla(0, 0%, 0%, 0.5);
-  margin-top: 16px;
+  margin: 16px auto 0px;
+  max-width: 880px;
 }
+
+.primary-btn {
+  background-color: #E95A08;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #ffffff;
+  border: none;
+  width: 100%;
+  padding: 25px;
+}
+
 
 /* navbar styles */
 .nav-links {
@@ -80,10 +92,55 @@ section {
 }
 
 
+/* Plants style */
+.plants-section {
+  text-align: center;
+}
+
+.products-container {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr)
+}
+
+.product {
+  width: 270px;
+}
+
+.product-image {
+  width: 100%;
+}
+
+.product-title {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #111111;
+  margin-top: 30px;
+}
+
+.product-rate {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #111111;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
 
 
 
-/* Responsive styles */
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive styles (Mobile devices) */
 @media screen and (max-width: 576px) {
   body {
     padding: 15px;
@@ -104,7 +161,8 @@ section {
     gap: 28px;
   }
 
-  .banner-title {
+  .banner-title,
+  .section-title {
     font-size: 1.75rem;
   }
 
