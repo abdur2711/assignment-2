@@ -76,6 +76,7 @@ section {
 .banner-title {
   font-family: "Noto Serif", serif;
   font-size: 4rem;
+  font-weight: 700;
 }
 
 
@@ -96,5 +97,24 @@ section {
   
   .navbar img {
     width: 70px;
+  }
+
+  .banner {
+    flex-direction: column-reverse;
+    gap: 28px;
+  }
+
+  .banner-title {
+    font-size: 1.75rem;
+  }
+
+  .section-description {
+    font-size: 0.9rem;
+    margin-top: 15px;
+  }
+
+  .banner img {
+    width: 100%;
+    margin-right: -29px;
   }
 }
