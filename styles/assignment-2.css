@@ -100,7 +100,11 @@ section {
 .products-container {
   margin-top: 50px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr)
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 20px;
+  row-gap: 30px;
+  justify-items: center;
+  align-items: center;
 }
 
 .product {
@@ -178,10 +182,6 @@ section {
 
   .products-container {
     grid-template-columns: repeat(2, 1fr);
-    column-gap: 20px;
-    row-gap: 30px;
-    justify-items: center;
-    align-items: center;
   }
 
   .product {
