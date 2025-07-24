@@ -154,10 +154,13 @@ section {
 
 .plants-lover-title {
   max-width: 540px;
+  margin-left: -20px;
 }
 
 .plants-lover-description li {
   margin-top: 20px;
+  margin-left: 20px;
+  text-align: justify;
 }
 
 /* Latest Deals section */
