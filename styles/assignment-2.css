@@ -165,14 +165,17 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  margin-bottom: 500px;
 }
 
 .join-section-title {
   color: #ffffff;
+  font-weight: 700;
 }
 
 #email {
-  width: 640px;
+  width: 620px;
   
 }
 
@@ -187,7 +190,9 @@ section {
 
 .submit-btn {
   margin-left: -5px;
-  width: 180px;
+  background-color: #E95A08;
+  color: #ffffff;
+  font-weight: 600;
 }
 
 
@@ -272,5 +277,18 @@ section {
   .plants-lover-description li {
     margin-left: 20px;
     margin-top: 15px;
+  }
+
+  /* join section responsive styles */
+  .join-section {
+    height: 275px;
+  }
+
+  .join-section-title {
+    font-size: 1.25rem;
+  }
+
+  #email {
+    max-width: 200px;
   }
 }
