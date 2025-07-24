@@ -56,6 +56,7 @@ section {
   border: none;
   width: 100%;
   padding: 18px;
+  cursor: pointer;
 }
 
 .join-section,
@@ -159,8 +160,85 @@ section {
   margin-top: 20px;
 }
 
-/* join section styles */
+/* Latest Deals section */
+.deals-container {
+  text-align: center;
+}
 
+.deals-card-container {
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 100px;
+}
+
+.deals-column-1 {
+  flex-direction: column;
+  gap: 24px;
+  width: 33%;
+}
+
+.deals-column-2 {
+  width: 66%;
+}
+
+.deals-card {
+  border-radius: 22px;
+}
+
+.bloom-plant,
+.ana-plant {
+  padding: 65px 30px;
+}
+
+.bloom-plant {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/deal-bloom.png);
+}
+
+.ana-plant {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/deal-ana.png);
+}
+
+.zabo-plant {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/deal-zabo.png);
+  padding: 145px 100px;
+}
+
+.bloom-plant,
+.ana-plant,
+.zabo-plant {
+  background-size: cover;
+}
+
+.bloom-plant h3,
+.ana-plant h3 {
+  font-family: "Noto Serif", serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: white;
+}
+
+.bloom-plant a,
+.ana-plant a {
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.zabo-plant h3 {
+  color: white;
+  font-family: "Noto Serif", serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.zabo-plant a {
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+/* join section styles */
 .join-section {
   background-image: url(../assets/news-letter-bg.png);
   background-size: cover;
@@ -194,6 +272,7 @@ section {
   background-color: #E95A08;
   color: #ffffff;
   font-weight: 600;
+  cursor: pointer;
 }
 
 
