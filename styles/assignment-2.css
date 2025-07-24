@@ -201,7 +201,8 @@ section {
 .footer {
   justify-content: space-around;
   align-items: flex-start;
-  padding: 70px;
+  box-sizing: border-box;
+  padding: 50px;
   background-color: rgb(250, 252, 255);
 }
 
@@ -328,7 +329,7 @@ section {
 
   /* Footer */
   .footer {
-    margin: 0 25px;
+    padding: 50px 20px;
   }
 
   .footer,
