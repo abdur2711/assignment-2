@@ -325,4 +325,15 @@ section {
   #email {
     max-width: 200px;
   }
+
+  /* Footer */
+  .footer {
+    margin: 0 25px;
+  }
+
+  .footer,
+  .footer-columns {
+    flex-direction: column;
+    gap: 20px;
+  }
 }
