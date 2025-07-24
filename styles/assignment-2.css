@@ -8,7 +8,7 @@
 }
 
 body {
-  max-width: 1440px;
+  max-width: 1140px;
   margin: 0 auto;
   padding: 30px;
   font-family: "Inter", sans-serif;
@@ -149,11 +149,46 @@ section {
 }
 
 .plants-lover-description li {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
+/* join section styles */
+.join-section {
+  background-image: url(../assets/news-letter-bg.png);
+  background-size: cover;
+  height: 530px;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+.join-section-title {
+  color: #ffffff;
+}
+
+#email {
+  width: 640px;
+  
+}
+
+#email,
+.submit-btn {
+  padding: 10px 20px;
+  margin-top: 25px;
+  border: none;
+  background-color: #ffffff;
+  font-size: 1rem;
+}
+
+.submit-btn {
+  margin-left: -5px;
+  width: 180px;
+}
 
 
 
