@@ -135,6 +135,7 @@ section {
 
 .plants-lover .store-image {
   z-index: 0;
+  width: 100%;
 }
 
 .plants-lover .trusted-badge {
@@ -190,7 +191,7 @@ section {
 
   .banner-title,
   .section-title {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
   }
 
   .section-description {
@@ -215,5 +216,23 @@ section {
   .product-rate,
   .primary-btn {
     font-size: 1rem;
+  }
+
+  /* plants lover responsive */
+  .plants-lover {
+    flex-direction: column;
+  }
+
+  .trusted-badge {
+    display: none;
+  }
+
+  .plants-lover-title {
+    margin-top: 20px;
+  }
+
+  .plants-lover-description li {
+    margin-left: 20px;
+    margin-top: 15px;
   }
 }
