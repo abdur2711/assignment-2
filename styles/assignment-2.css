@@ -59,6 +59,11 @@ section {
   cursor: pointer;
 }
 
+.primary-btn:hover,
+.submit-btn:hover {
+  background-color: #ff782a;
+}
+
 .join-section,
 .footer {
   width: 100vw;
@@ -140,7 +145,6 @@ section {
 }
 
 /* Plants Lover Styles */
-
 .plants-lover .store-image {
   z-index: 0;
 }
@@ -187,6 +191,10 @@ section {
 
 .deals-card {
   border-radius: 22px;
+}
+
+.deals-card a:hover {
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .bloom-plant,
@@ -280,7 +288,6 @@ section {
   cursor: pointer;
 }
 
-
 /* Footer styles */
 .footer {
   justify-content: space-around;
@@ -312,10 +319,6 @@ section {
   gap: 24px;
   align-items: center;
 }
-
-
-
-
 
 
 
