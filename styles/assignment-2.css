@@ -135,7 +135,6 @@ section {
 
 .plants-lover .store-image {
   z-index: 0;
-  width: 100%;
 }
 
 .plants-lover .trusted-badge {
@@ -221,6 +220,10 @@ section {
   /* plants lover responsive */
   .plants-lover {
     flex-direction: column;
+  }
+
+  .plants-lover .store-image {
+    width: 100%;
   }
 
   .trusted-badge {
